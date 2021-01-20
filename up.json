@@ -1,6 +1,19 @@
 {
   "name": "esolia-status",
-
+  "dns": {
+    "esolia.pro": [
+      {
+        "name": "status.esolia.pro",
+        "type": "CNAME",
+        "value": ["https://woi04lfvu9.execute-api.ap-northeast-1.amazonaws.com/production/"]
+      },
+      {
+        "name": "staging.status.esolia.pro",
+        "type": "CNAME",
+        "value": ["https://woi04lfvu9.execute-api.ap-northeast-1.amazonaws.com/staging/"]
+      }
+    ]
+  },
   "type": "static",
   "static":{
     "dir": "html"
@@ -14,4 +27,22 @@
   "regions": [
     "ap-northeast-1"
   ]
+}
+
+{
+  "name": "esolia-status",
+  "dns": {
+    "esolia.pro": [
+      {
+        "name": "staging.status.esolia.pro",
+        "type": "CNAME",
+        "value": ["https://woi04lfvu9.execute-api.ap-northeast-1.amazonaws.com/production/"]
+      },
+      {
+        "name": "staging.status.esolia.pro",
+        "type": "CNAME",
+        "value": ["https://woi04lfvu9.execute-api.ap-northeast-1.amazonaws.com/staging/"]
+      }
+    ]
+  }
 }
