@@ -1,6 +1,3 @@
-# Hugo
-# public/
-# themes/
 
 # tachyons clone
 tachyons-sass
@@ -41,7 +38,6 @@ coverage
 build/Release
 
 # Build directories
-# public
 dist
 bundle
 
