@@ -1,5 +1,5 @@
 # Hugo
-public/
+# public/
 # themes/
 
 # tachyons clone
@@ -41,7 +41,7 @@ coverage
 build/Release
 
 # Build directories
-public
+# public
 dist
 bundle
 
