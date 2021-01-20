@@ -1,0 +1,17 @@
+{
+  "name": "esolia-status",
+
+  "type": "static",
+  "static":{
+    "dir": "html"
+  },
+  "tags": {
+    "Owner": "eSolia",
+    "AppName": "eSoliaStatus",
+    "PoweredBy": "ApexUp"
+  },
+  "profile": "apex-up-esolia",
+  "regions": [
+    "ap-northeast-1"
+  ]
+}
