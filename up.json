@@ -5,7 +5,10 @@
       "domain": "staging.status.esolia.pro"
     },
     "production": {
-      "domain": "status.esolia.pro"
+      "domain": "status.esolia.pro",
+      "lambda": {
+        "warm": true
+      }
     }
   },
   "type": "static",
