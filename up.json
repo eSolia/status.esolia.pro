@@ -1,5 +1,10 @@
 {
   "name": "esolia-status",
+  "hooks": {
+    "clean": [
+      "up prune -s production -r 10"
+    ]
+  },
   "stages": {
     "staging": {
       "domain": "staging.status.esolia.pro"
@@ -7,7 +12,10 @@
     "production": {
       "domain": "status.esolia.pro",
       "lambda": {
-        "warm": true
+        "warm": true,
+        "endpoint": "regional",
+        "memory": 1024,
+        "accelerate": true
       }
     }
   },
